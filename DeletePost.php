@@ -1,8 +1,5 @@
 <?php 
 
-$username = $_POST['UserName'];
-$posttext = $_POST['PostText'];
-
 $servername ="mysql.eecs.ku.edu";
 $myname = "ctan";
 $mypassword = "qCJ6YMu6KuMFXyXq";
