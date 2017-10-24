@@ -27,7 +27,7 @@ else
   echo '<center><h1>Successful!</h1></center>';
   echo '<center><p>Create a new user successfully.</p></center>';
   echo '<center><p>You will be redirected in 2 seconds.</p></center>';
-  header("refresh:2; url=AdminHome.html");
+  header("refresh:2; url=UserInterface.html");
 }
 /* close connection */
 // $mysqli->close();
