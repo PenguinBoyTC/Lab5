@@ -64,6 +64,7 @@ if(isset($_POST['submit']))
       {
         echo '<center><h1>Error!</h1></center>';
         echo '<center><p>Failed to delete Post. Please try again.</p></center>';
+        echo '<center><p>You will be redirected in 2 seconds.</p></center>';
         header("refresh:2; url=DeletePost.html");
         exit();
       }
@@ -78,6 +79,8 @@ if(isset($_POST['submit']))
   {
     echo '<center><h1>Error!</h1></center>';
     echo '<center><p>Please Select at least one Post to delete.</p></center>';
+    echo '<center><p>You will be redirected in 2 seconds.</p></center>';
+    header("refresh:2; url=DeletePost.html");
   }
 }
 
